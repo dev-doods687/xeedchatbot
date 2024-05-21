@@ -4,7 +4,8 @@
 import frappe,os,json,openai
 from langchain.llms import OpenAI
 #from llama_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper, ServiceContext
-from llama_index import StorageContext, load_index_from_storage,LLMPredictor,ServiceContext, PromptHelper
+from llama_index import load_index_from_storage,LLMPredictor,ServiceContext, PromptHelper
+from llama_index.submodule import StorageContext
 from frappe.model.document import Document
 from langchain.callbacks.base import BaseCallbackHandler
 from xeedchatbot.xeedchatbot.util import finance_agent
