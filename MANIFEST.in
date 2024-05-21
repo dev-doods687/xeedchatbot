@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include xeedchatbot *.css
+recursive-include xeedchatbot *.csv
+recursive-include xeedchatbot *.html
+recursive-include xeedchatbot *.ico
+recursive-include xeedchatbot *.js
+recursive-include xeedchatbot *.json
+recursive-include xeedchatbot *.md
+recursive-include xeedchatbot *.png
+recursive-include xeedchatbot *.py
+recursive-include xeedchatbot *.svg
+recursive-include xeedchatbot *.txt
+recursive-exclude xeedchatbot *.pyc

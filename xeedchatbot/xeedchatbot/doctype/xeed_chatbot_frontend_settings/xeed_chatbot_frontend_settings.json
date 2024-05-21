@@ -1,0 +1,118 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-25 14:54:05.643911",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "header_background_color",
+  "user_avatar_background_color",
+  "business_avatar_background_color",
+  "border_color",
+  "footer_link",
+  "token",
+  "socket_url",
+  "footer_text",
+  "header_image",
+  "business_avatar_image",
+  "footer_image",
+  "favorite_icon"
+ ],
+ "fields": [
+  {
+   "default": "#004EA8",
+   "fieldname": "header_background_color",
+   "fieldtype": "Color",
+   "in_list_view": 1,
+   "label": "Header Background Color"
+  },
+  {
+   "default": "#FCB817",
+   "fieldname": "user_avatar_background_color",
+   "fieldtype": "Color",
+   "in_list_view": 1,
+   "label": "User Avatar Background Color"
+  },
+  {
+   "default": "#004EA8",
+   "fieldname": "business_avatar_background_color",
+   "fieldtype": "Color",
+   "in_list_view": 1,
+   "label": "Business Avatar Background Color"
+  },
+  {
+   "default": "#004EA8",
+   "fieldname": "border_color",
+   "fieldtype": "Color",
+   "in_list_view": 1,
+   "label": "Border Color"
+  },
+  {
+   "fieldname": "header_image",
+   "fieldtype": "Attach Image",
+   "label": "Header Image"
+  },
+  {
+   "fieldname": "business_avatar_image",
+   "fieldtype": "Attach Image",
+   "label": "Business Avatar Image"
+  },
+  {
+   "fieldname": "footer_image",
+   "fieldtype": "Attach Image",
+   "label": "Footer Image"
+  },
+  {
+   "default": "https://ailab.xurpas.com",
+   "fieldname": "footer_link",
+   "fieldtype": "Data",
+   "label": "Footer Link"
+  },
+  {
+   "fieldname": "token",
+   "fieldtype": "Data",
+   "label": "Token",
+   "reqd": 1
+  },
+  {
+   "fieldname": "socket_url",
+   "fieldtype": "Data",
+   "label": "Socket URL"
+  },
+  {
+   "fieldname": "footer_text",
+   "fieldtype": "Data",
+   "label": "Footer Text"
+  },
+  {
+   "fieldname": "favorite_icon",
+   "fieldtype": "Attach Image",
+   "label": "Favorite Icon"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-09-29 11:24:48.056070",
+ "modified_by": "Administrator",
+ "module": "XeedChatbot",
+ "name": "Xeed Chatbot Frontend Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

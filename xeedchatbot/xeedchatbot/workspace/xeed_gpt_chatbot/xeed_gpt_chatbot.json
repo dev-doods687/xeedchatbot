@@ -1,0 +1,75 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"A2wFAiDjzf\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Xeed GPT Chatbot</span>\",\"col\":12}},{\"id\":\"O2jMyfIcDd\",\"type\":\"card\",\"data\":{\"card_name\":\"Chat\",\"col\":4}}]",
+ "creation": "2023-09-12 17:19:34.587752",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "comment",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Xeed GPT Chatbot",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Chat",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Xeed Chatbot",
+   "link_count": 0,
+   "link_to": "Xeed Chatbot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Xeed Chatbot GPT Settings",
+   "link_count": 0,
+   "link_to": "Xeed Chatbot GPT Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "OPENAI Settings",
+   "link_count": 0,
+   "link_to": "Xeed Chatbot OpenAI Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Frontend Settings",
+   "link_count": 0,
+   "link_to": "Xeed Chatbot Frontend Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-09-25 17:14:37.322552",
+ "modified_by": "Administrator",
+ "module": "XeedChatbot",
+ "name": "Xeed GPT Chatbot",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 31.0,
+ "shortcuts": [],
+ "title": "Xeed GPT Chatbot"
+}

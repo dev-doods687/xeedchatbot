@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-07 15:53:34.105867",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "context",
+  "display",
+  "input",
+  "send",
+  "history"
+ ],
+ "fields": [
+  {
+   "fieldname": "display",
+   "fieldtype": "HTML",
+   "is_virtual": 1,
+   "label": "Display",
+   "read_only": 1
+  },
+  {
+   "fieldname": "input",
+   "fieldtype": "Text",
+   "label": "Input",
+   "max_height": "80px"
+  },
+  {
+   "fieldname": "send",
+   "fieldtype": "Button",
+   "label": "Send"
+  },
+  {
+   "fieldname": "history",
+   "fieldtype": "JSON",
+   "hidden": 1,
+   "label": "History",
+   "read_only": 1
+  },
+  {
+   "default": "Finance",
+   "fetch_if_empty": 1,
+   "fieldname": "context",
+   "fieldtype": "Link",
+   "label": "Context",
+   "options": "Xeed Chatbot Context"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-05-17 17:10:47.969159",
+ "modified_by": "Administrator",
+ "module": "XeedChatbot",
+ "name": "Xeed Chatbot",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

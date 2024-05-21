@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-07 15:54:10.516370",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "data_settings_section",
+  "sample_questions",
+  "data_folder",
+  "index_folder",
+  "chatbot_data",
+  "guardrail_settings_section",
+  "guardrails"
+ ],
+ "fields": [
+  {
+   "fieldname": "guardrails",
+   "fieldtype": "Code",
+   "label": "Guardrails"
+  },
+  {
+   "fieldname": "sample_questions",
+   "fieldtype": "Table",
+   "label": "Sample Questions",
+   "options": "Xeed Chatbot Sample Questions"
+  },
+  {
+   "fieldname": "data_folder",
+   "fieldtype": "Data",
+   "label": "Data Folder",
+   "read_only": 1
+  },
+  {
+   "fieldname": "index_folder",
+   "fieldtype": "Data",
+   "label": "Index Folder",
+   "read_only": 1
+  },
+  {
+   "fieldname": "chatbot_data",
+   "fieldtype": "Table",
+   "label": "Chatbot Data",
+   "options": "Xeed Chatbot Data"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "guardrail_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Guardrail Settings"
+  },
+  {
+   "fieldname": "data_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Data Settings"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-10-16 19:03:30.307363",
+ "modified_by": "Administrator",
+ "module": "XeedChatbot",
+ "name": "Xeed Chatbot GPT Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
