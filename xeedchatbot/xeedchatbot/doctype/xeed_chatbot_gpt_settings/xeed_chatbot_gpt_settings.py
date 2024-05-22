@@ -6,8 +6,7 @@ from frappe.utils import get_site_name
 from frappe.model.document import Document
 from langchain.llms import OpenAI
 import os
-from llama_index import load_index_from_storage
-from llama_index.submodule import StorageContext
+from llama_index import StorageContext, load_index_from_storage
 
 from llama_index import SimpleDirectoryReader, GPTListIndex, GPTVectorStoreIndex, LLMPredictor, PromptHelper, ServiceContext
 import sys
